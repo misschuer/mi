@@ -1,0 +1,8 @@
+安装lor
+git clone https://github.com/sumory/lor
+cd lor
+make install
+
+配置nginx-dev.conf
+nginx-dev.conf的user要和openresty-china里的app文件用户组用户名一致
+ln -s /usr/lib64/libuuid.so.1 /usr/lib64/libuuid.so
