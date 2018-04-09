@@ -1,0 +1,6 @@
+宝塔架设网站
+	修改数据库配置
+	/Application/Common/Conf/config.php
+	./Application/User/Conf/config.php
+	
+	把Runtime/下的出Data以外的东西删掉

@@ -1,0 +1,4 @@
+sortedset
+	key		:	userIdOrSet#
+	field	:	guid
+	value	:	os.time()

@@ -1,0 +1,48 @@
+login
+
+{
+	"username":"mm00004"
+}
+
+{"time":1521014994,"msg":"请注册详细信息.","guid":10,"code":10001,"imgHttp":""}
+
+
+
+
+sign_up
+{
+	"guid":11,
+	"name":"我信息",
+	"avatar":"sssss",
+	"sign":"345dfetret",
+	"birth":"1989-12-12",
+	"mobile":"13546897789",
+	"gender":1
+}
+
+
+team/create
+    local token     = req.body.token
+    local teamname  = req.body.name
+    local annon     = req.body.announcement or ''
+    local isVIP     = req.body.vipstate or 0
+    local roomType  = req.body.type or 1
+    local roomStyle = req.body.roomStyle or 1
+	
+{
+	"token":"ba2736366784e7e9cb7ab3a1f031ea1a",
+	"name":"token房间1"
+}
+
+
+/team/getRecommendedRoomList
+{
+	"from":1,
+	"to":10
+}
+
+/team/join
+{
+	"token": "e56511c0bb2ad9023de8a0ae271cf431",
+	"tid": "373577273"
+}
